@@ -1,3 +1,4 @@
+// This should be called
 terraform {
   backend "s3" {
     bucket = "khiem-dc11-terraform-s3-state"
