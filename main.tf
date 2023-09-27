@@ -1,6 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "khiem-dc11-terraform-s3-state"
+    shared_credentials_file = "/home/ubuntu/.aws/credentials"
     key    = "networking.tfstate"
     region = "ap-southeast-2"
   }
