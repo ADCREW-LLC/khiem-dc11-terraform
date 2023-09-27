@@ -1,7 +1,4 @@
-variable "aws_access_key_id" {
-  default     = "AKIAWIVUTCVPTL7HHOK3"
-}
-
-variable "aws_secret_access_key" {
-  default     = "fLDTaGciIZXl2WdhOuuvFsrotUNSNvNYfrDKGEZq"
+locals {
+  aws_access_key_id = "AKIAWIVUTCVPTL7HHOK3"
+  aws_secret_access_key = "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"
 }
