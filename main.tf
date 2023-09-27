@@ -1,5 +1,7 @@
 terraform {
   backend "s3" {
+    access_key = "AKIAWIVUTCVPTL7HHOK3"
+    secret_key = "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"
     bucket = "khiem-dc11-terraform-s3-state"
     key    = "networking.tfstate"
     region = "ap-southeast-2"
@@ -17,5 +19,7 @@ terraform {
 
 provider "aws" {
   profile                 = terraform.workspace
+  access_key = "AKIAWIVUTCVPTL7HHOK3"
+  secret_key = "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"
   region                  = terraform.workspace == "default" ? "ap-southeast-2" : terraform.workspace == "test" ? "ap-northeast-3" : "ap-south-1"
 }
