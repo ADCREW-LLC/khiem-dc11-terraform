@@ -29,5 +29,5 @@ terraform {
 }
 
 output "hello_world" {
-  value = "Hello, World!"
+  value = "Da sua!"
 }
