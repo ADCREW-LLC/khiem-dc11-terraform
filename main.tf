@@ -1,11 +1,11 @@
 terraform {
-  backend "s3" {
+  /*backend "s3" {
     access_key = "AKIAWIVUTCVPTL7HHOK3"
     secret_key = "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"
     bucket = "khiem-dc11-terraform-s3-state"
     key    = "networking.tfstate"
     region = "ap-southeast-2"
-  }
+  }*/
 
   required_providers {
     aws = {
