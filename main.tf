@@ -3,5 +3,5 @@ terraform {
 }
 
 output "hello_world" {
-  value = "Da sua!"
+  value = "Hello baby! I am terraform git repo!"
 }
