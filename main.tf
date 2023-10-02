@@ -3,5 +3,5 @@ terraform {
 }
 
 output "hello_world" {
-  value = "Hello baby! I am terraform git repo! ==> 09-18"
+  value = "Hello baby! I am terraform git repo! ==> 09-46"
 }
